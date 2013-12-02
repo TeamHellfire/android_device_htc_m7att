@@ -71,4 +71,4 @@ BOARD_PROVIDES_LIBRIL := true
 -include vendor/htc/m7att/BoardConfigVendor.mk
 
 # Set meta data to use older recoverys 
-USE_SET_METADATA := false
+SKIP_SET_METADATA := true
